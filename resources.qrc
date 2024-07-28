@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="img">
+    <file>icon/add.png</file>
+    <file>icon/白色.png</file>
+    <file>icon/部署.png</file>
+    <file>icon/大窗.png</file>
+    <file>icon/待办 full.png</file>
+    <file>icon/待办事项.png</file>
+    <file>icon/工作台.png</file>
+    <file>icon/关闭.png</file>
+    <file>icon/缩小.png</file>
+    <file>icon/小窗.png</file>
+  </qresource>
+</RCC>

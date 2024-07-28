@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>900</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>900</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>900</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget{
+background-color:rgb(45,56,96);
+border-radius:20px;
+}</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#widget_2{
+background-color:rgb(17,30,70);
+border-top-left-radius:15px;
+border-top-right-radius:15px;
+}</string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>268</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>To Do</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>209</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>9</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="hiding">
+             <property name="styleSheet">
+              <string notr="true">#hiding{
+	color:rgb(255,255,255);
+	font: 26pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                background-color: rgb(45, 56, 96);
+            }
+            QPushButton:pressed {
+                background-color: rgb(17, 30, 70);
+            }</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="../resources.qrc">
+               <normaloff>:/img/icon/缩小.png</normaloff>:/img/icon/缩小.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>23</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="enlarge">
+             <property name="styleSheet">
+              <string notr="true">#enlarge{
+	color:rgb(255,255,255);
+	font: 26pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                background-color: rgb(45, 56, 96);
+            }
+            QPushButton:pressed {
+                background-color: rgb(17, 30, 70);
+            }</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="../resources.qrc">
+               <normaloff>:/img/icon/小窗.png</normaloff>:/img/icon/小窗.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>23</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="closeBtn">
+             <property name="styleSheet">
+              <string notr="true">#close{
+	color:rgb(255,255,255);
+	font: 26pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                background-color: rgb(45, 56, 96);
+            }
+            QPushButton:pressed {
+                background-color: rgb(17, 30, 70);
+            }</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="../resources.qrc">
+               <normaloff>:/img/icon/关闭.png</normaloff>:/img/icon/关闭.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>23</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>10</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="LeftBar" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>68</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>68</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#LeftBar{
+background-color:rgb(17,30,70);
+border-bottom-left-radius:15px;
+}</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QWidget" name="widget_4" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>160</width>
+               <height>68</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>160</width>
+               <height>68</height>
+              </size>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>68</width>
+                  <height>68</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>68</width>
+                  <height>68</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_6" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>2</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>160</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>160</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="event">
+                <property name="minimumSize">
+                 <size>
+                  <width>60</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>160</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#event{
+	color:rgb(255,255,255);
+	font: 26pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                background-color: rgb(45, 56, 96);
+            }
+            QPushButton:pressed {
+                background-color: rgb(17, 30, 70);
+            }</string>
+                </property>
+                <property name="text">
+                 <string> Event</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../resources.qrc">
+                  <normaloff>:/img/icon/待办 full.png</normaloff>:/img/icon/待办 full.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>47</width>
+                  <height>47</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="add">
+                <property name="minimumSize">
+                 <size>
+                  <width>60</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>160</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#add{
+	color:rgb(255,255,255);
+	font: 26pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                background-color: rgb(45, 56, 96);
+            }
+            QPushButton:pressed {
+                background-color: rgb(17, 30, 70);
+            }</string>
+                </property>
+                <property name="text">
+                 <string> Add  </string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../resources.qrc">
+                  <normaloff>:/img/icon/add.png</normaloff>:/img/icon/add.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>43</width>
+                  <height>43</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="four">
+                <property name="minimumSize">
+                 <size>
+                  <width>60</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>160</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#four{
+	color:rgb(255,255,255);
+	font: 26pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                background-color: rgb(45, 56, 96);
+            }
+            QPushButton:pressed {
+                background-color: rgb(17, 30, 70);
+            }</string>
+                </property>
+                <property name="text">
+                 <string>   Four</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../resources.qrc">
+                  <normaloff>:/img/icon/工作台.png</normaloff>:/img/icon/工作台.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>58</width>
+                  <height>58</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_7" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>160</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>160</width>
+               <height>16777215</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_5" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QStackedWidget" name="stackedWidget">
+             <widget class="QWidget" name="edit">
+              <widget class="QLineEdit" name="event_txt">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>40</y>
+                 <width>261</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_12">
+               <property name="geometry">
+                <rect>
+                 <x>500</x>
+                 <y>0</y>
+                 <width>101</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>截止时间</string>
+               </property>
+              </widget>
+              <widget class="QDateTimeEdit" name="dateTimeEdit_2">
+               <property name="geometry">
+                <rect>
+                 <x>500</x>
+                 <y>40</y>
+                 <width>261</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_13">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>0</y>
+                 <width>91</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>事件</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="save_btn_2">
+               <property name="geometry">
+                <rect>
+                 <x>590</x>
+                 <y>460</y>
+                 <width>111</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#save_btn_2{
+	color: rgb(255, 255, 255);
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                
+	background-color: rgb(17, 30, 70);
+            }
+            QPushButton:pressed {
+	
+                background-color: rgb(45, 56, 96);
+            }</string>
+               </property>
+               <property name="text">
+                <string>保存编辑</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_14">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>460</y>
+                 <width>101</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>重要程度</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_15">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>90</y>
+                 <width>71</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>具体</string>
+               </property>
+              </widget>
+              <widget class="QTextEdit" name="textEdit">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>130</y>
+                 <width>751</width>
+                 <height>311</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+              </widget>
+              <widget class="QWidget" name="layoutWidget">
+               <property name="geometry">
+                <rect>
+                 <x>150</x>
+                 <y>470</y>
+                 <width>436</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
+                <item>
+                 <widget class="QRadioButton" name="radioButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>不做会噶</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radioButton_2">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>不做我还活着</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radioButton_3">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>不做我还活的好好的</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radioButton_4">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>不做我还活的更好</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget">
+               <property name="geometry">
+                <rect>
+                 <x>340</x>
+                 <y>40</y>
+                 <width>101</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <item>
+                 <widget class="QCheckBox" name="checkBox">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_16">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>完成</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QPushButton" name="delete_btn">
+               <property name="geometry">
+                <rect>
+                 <x>710</x>
+                 <y>460</y>
+                 <width>101</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#delete_btn{
+	color: rgb(255, 255, 255);
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                
+	background-color: rgb(17, 30, 70);
+            }
+            QPushButton:pressed {
+	
+                background-color: rgb(45, 56, 96);
+            }</string>
+               </property>
+               <property name="text">
+                <string>删除任务</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="event_2">
+              <layout class="QGridLayout" name="gridLayout">
+               <item row="3" column="1">
+                <widget class="QListWidget" name="list4">
+                 <property name="styleSheet">
+                  <string notr="true">font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QListWidget" name="list2">
+                 <property name="styleSheet">
+                  <string notr="true">font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_7">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; font-style:italic; color:#ffffff;&quot;&gt;不重要不紧急&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QListWidget" name="list3">
+                 <property name="styleSheet">
+                  <string notr="true">font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QListWidget" name="list1">
+                 <property name="styleSheet">
+                  <string notr="true">font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLabel" name="label_8">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; font-style:italic; color:#ffffff;&quot;&gt;紧急&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_9">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; font-style:italic; color:#ffffff;&quot;&gt;重要&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLabel" name="label_10">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; font-style:italic; color:#ffffff;&quot;&gt;重要紧急&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="add_2">
+              <widget class="QTextEdit" name="des_txt">
+               <property name="geometry">
+                <rect>
+                 <x>9</x>
+                 <y>133</y>
+                 <width>796</width>
+                 <height>291</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_3">
+               <property name="geometry">
+                <rect>
+                 <x>9</x>
+                 <y>9</y>
+                 <width>101</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#ffffff;&quot;&gt;事项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_4">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>100</y>
+                 <width>129</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#ffffff;&quot;&gt;具体&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QCheckBox" name="status_check">
+               <property name="geometry">
+                <rect>
+                 <x>330</x>
+                 <y>50</y>
+                 <width>106</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 22pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Event_txt">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>50</y>
+                 <width>291</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_5">
+               <property name="geometry">
+                <rect>
+                 <x>470</x>
+                 <y>10</y>
+                 <width>121</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#ffffff;&quot;&gt;截止时间&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_6">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>450</y>
+                 <width>141</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;重要程度&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QDateTimeEdit" name="dateTimeEdit">
+               <property name="geometry">
+                <rect>
+                 <x>470</x>
+                 <y>50</y>
+                 <width>281</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="save_btn">
+               <property name="geometry">
+                <rect>
+                 <x>650</x>
+                 <y>460</y>
+                 <width>141</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#save_btn{
+	color: rgb(255, 255, 255);
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+}
+QPushButton{
+border:none;
+}
+QPushButton:pressed{
+	padding-botton:5px;
+}
+QPushButton:hover {
+                
+			background-color: rgb(17, 30, 70);
+            }
+            QPushButton:pressed {
+	
+                background-color: rgb(45, 56, 96);
+            }</string>
+               </property>
+               <property name="text">
+                <string extracomment="save">保存</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../resources.qrc">
+                 <normaloff>:/img/icon/部署.png</normaloff>:/img/icon/部署.png</iconset>
+               </property>
+              </widget>
+              <widget class="QWidget" name="layoutWidget">
+               <property name="geometry">
+                <rect>
+                 <x>170</x>
+                 <y>460</y>
+                 <width>444</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="QRadioButton" name="RBtn1">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>  不做我会噶</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="RBtn2">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>不做我还活着</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="RBtn3">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>不做我还活的好好的</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="RBtn4">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>不做我活的更好</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QLabel" name="label_11">
+               <property name="geometry">
+                <rect>
+                 <x>350</x>
+                 <y>50</y>
+                 <width>81</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 18pt &quot;Microsoft YaHei UI&quot;;</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#ffffff;&quot;&gt;未完成&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>closeBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>916</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>967</x>
+     <y>27</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hiding</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>783</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>793</x>
+     <y>10</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>enlarge</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMaximized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>847</x>
+     <y>82</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>862</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
